@@ -1,0 +1,4 @@
+.vagrant/
+keys/id_rsa*
+*~
+*.swp
