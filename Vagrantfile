@@ -25,7 +25,6 @@ Vagrant.configure("2") do |config|
   config.persistent_storage.filesystem = 'ext4'
   config.persistent_storage.mountpoint = '/home/vagrant/projects'
   config.persistent_storage.volgroupname = 'persist'
-  config.persistent_storage.mountoptions = ['uid=1000', 'gid=1000']
   
 
   # Disable automatic box update checking. If you disable this, then
